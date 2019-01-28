@@ -41,8 +41,7 @@
     "start": "start-storybook -p 9001 -c .storybook",
     "build": "rollup -c",
     "test": "eslint src/** --ext .js --quiet",
-    "release": "standard-version --no-verify",
-    "postinstall": "npm run build"
+    "release": "standard-version --no-verify"
   },
   "husky": {
     "hooks": {
