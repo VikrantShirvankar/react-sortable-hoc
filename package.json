@@ -42,7 +42,7 @@
     "build": "rollup -c",
     "test": "eslint src/** --ext .js --quiet",
     "release": "standard-version --no-verify",
-    "postinstall": "rollup -c"
+    "postinstall": "npm run build"
   },
   "husky": {
     "hooks": {
