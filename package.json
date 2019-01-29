@@ -7,7 +7,7 @@
     "email": "me@ced.io"
   },
   "user": "clauderic",
-  "homepage": "https://github.com/clauderic/react-sortable-hoc",
+  "homepage": "https://github.com/VikrantShirvankar/react-sortable-hoc.git",
   "source": "src/index.js",
   "main": "dist/react-sortable-hoc.js",
   "umd:main": "dist/react-sortable-hoc.umd.js",
