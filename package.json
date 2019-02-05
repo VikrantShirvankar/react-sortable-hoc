@@ -43,6 +43,9 @@
     "test": "eslint src/** --ext .js --quiet",
     "release": "standard-version --no-verify"
   },
+  "modules": {
+    "install": "npm run build"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
